@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+    --black: #1e1e1e;
+    --white: #f1f1f1;
+    --red: #ff0101;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 400 62.5% 'VT323', sans-serif;
+    text-decoration: none;
+    color: var(--black);
+}
