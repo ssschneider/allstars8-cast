@@ -24,14 +24,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Deploy
 
-> [Clique aqui para navegar para o projeto!](link)
+> [Clique aqui para navegar para o projeto!](https://ssschneider.github.io/listagem-pokemons-devweek/)
 
 ## 🌎 English Version
 
 Pokémon List is a project developed during the Programmer Week: From Zero to Hired an immersion offered by Dev em Dobro. To do that, I've used:
 - HTML, CSS, JS, Git and Github
 
-> You can check out the deploy by [clicking here](link)
+> You can check out the deploy by [clicking here](https://ssschneider.github.io/listagem-pokemons-devweek/)
 
 ---
 ### Desenvolvido por Sarah Schneider 🖖
