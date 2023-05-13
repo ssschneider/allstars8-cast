@@ -1,7 +1,7 @@
-<h1 align="center"> Listagem de Pokémons </h1>
+<h1 align="center"> Elenco All Stars 8 </h1>
 
 <p align="center">
-Listagem de pokémons desenvolvida durante a Semana do Zero ao Programador Contratado, imersão do Dev em Dobro <br/>
+Lista do elenco de RuPaul's Drag Race All Stars 8, desenvolvido como projeto personalizdo da Semana do Zero ao Programador Contratado, imersão do Dev em Dobro <br/>
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@ Listagem de pokémons desenvolvida durante a Semana do Zero ao Programador Contr
 </p>
 
 <p align="center">
-  <img alt="Preview" src=".github/preview.png" width="100%">
+  <img alt="Preview" src=".github/preview.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🌎 English Version
 
-Pokémon List is a project developed during the Programmer Week: From Zero to Hired an immersion offered by Dev em Dobro. To do that, I've used:
+All Stars 8 Cast is a project developed during the Programmer Week: From Zero to Hired an immersion offered by Dev em Dobro, as the personalized version. To do that, I've used:
 - HTML, CSS, JS, Git and Github
 
 > You can check out the deploy by [clicking here](https://ssschneider.github.io/listagem-pokemons-devweek/)

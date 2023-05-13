@@ -1,22 +1,28 @@
-import { pokedex } from "./pokemons.js";
+import { queens } from "./queensList.js";
 
-const pokemonsContainer = document.getElementById("pokemonsContainer");
+const queensContainer = document.getElementById("queensContainer");
 
-const listPokemons = () => {
+const listQueens = () => {
     return (
-        pokedex.map(pokemon => {
-        pokemonsContainer.innerHTML += `
-            <div class="pokemon ${pokemon.type[0]}">
-            <img src=${pokemon.image} alt=${pokemon.name}>
+        queens.map(queen => {
+        const ranks = queen.ranks.map(rank => `<span class="rank">#${rank}</span>`)
+        const seasons = queen.seasons.map(season => `<span class="season">${season}</span>`)
+        queensContainer.innerHTML += `
+            <div class="queen">
+            <img src=${queen.image} alt=${queen.name}>
 
-            <div class="pokemon-data">
-                <h2>${pokemon.name}</h2>
-                <span class="id">#${pokemon.id}</span>
+            <div class="queen-data">
+                <h2>${queen.name}</h2>
+                <div class="ranks">
+                    ${ranks}
+                </div>
 
-                <span class="type">${pokemon.type}</span>
+                <div class="seasons">
+                ${seasons}
+                </div>
 
                 <div class="description">
-                <p>${pokemon.description}</p>
+                <p>${queen.description}</p>
                 </div>
             </div>
         </div>
@@ -25,13 +31,14 @@ const listPokemons = () => {
     )
 }
 
-listPokemons()
+listQueens()
 
 const themeToggler = document.querySelector("header button");
 const body = document.querySelector("body");
-const pokemonCard = document.querySelector(".pokemon")
+const queenCard = document.querySelector(".queen")
 
 themeToggler.addEventListener("click", () => {
     body.classList.toggle("dark")
-    pokemonCard.classList.toggle("dark")
+    queenCard.classList.toggle("dark")
+    console.log(queenCard);
 })

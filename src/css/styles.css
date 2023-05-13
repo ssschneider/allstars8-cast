@@ -4,6 +4,7 @@ body {
 
 body.dark {
     background-color: var(--black);
+    color: var(--white);
 }
 
 header {
@@ -30,6 +31,7 @@ header button {
 
 header button img {
     max-width: 4rem;
+    border-radius: 50%;
     filter: drop-shadow(0px 2px 2px var(--black));
 }
 
@@ -37,7 +39,7 @@ header button:hover {
     scale: 1.15;
 }
 
-#pokemonsContainer {
+#queensContainer {
     width: 100%;
     max-width: 90%;
     margin: 8rem auto 3.2rem;
@@ -48,7 +50,7 @@ header button:hover {
     row-gap: 8rem;
 }
 
-.pokemon {
+.queen {
     width: 100%;
     max-width: 80%;
     margin: 0 auto;
@@ -56,52 +58,57 @@ header button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
     gap: 2.4rem;
     border: 1px solid var(--black);
     border-radius: .4rem;
     padding: 2.4rem;
+    background: var(--white);
+    transition: 1s linear;
 }
 
-.pokemon.grama {
-    background-color: #A7DB8D;
+.queen:hover {
+    background: #e2ffdd;
+    background: -webkit-linear-gradient(to right, #fad8de, #e2ffdd);
+    background: linear-gradient(to right, #fad8de, #e2ffdd);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.pokemon.fogo {
-    background-color: #F5AC78;
+.queen > img {
+    width: 15rem;
+    border-radius: 84% 16% 92% 8% / 79% 37% 63% 21%;
+    object-fit: cover;
 }
 
-.pokemon.água {
-    background-color: #9DB7F5;
-}
-
-.pokemon.inseto {
-    background-color: #C6D16E;
-}
-
-.pokemon > img {
-    position: absolute;
-    top: -18%;
-    width: 8rem;
-}
-
-.pokemon > .pokemon-data {
+.queen > .queen-data {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: .8rem;
 }
 
-.pokemon > .pokemon-data > h2 {
+.queen > .queen-data > h2 {
     font-size: 4rem;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.pokemon > .pokemon-data > .id {
+.queen > .queen-data > .ranks {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.queen > .queen-data > .ranks > .rank {
     font-size: 2.4rem;
 }
 
-.pokemon > .pokemon-data > .type {
+.queen > .queen-data > .seasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: .8rem;
+}
+
+.queen > .queen-data > .seasons > .season {
     font-size: 2.4rem;
     text-transform: capitalize;
     color: var(--white);
@@ -110,12 +117,12 @@ header button:hover {
     padding: .4rem 1.6rem;
 }
 
-.pokemon > .pokemon-data > .description {
+.queen > .queen-data > .description {
     overflow-y: scroll;
-    height: 14rem;
+    height: 12rem;
 }
 
-.pokemon > .pokemon-data > .description > p {
+.queen > .queen-data > .description > p {
     font-size: 2.4rem;
     text-align: justify;
     padding-right: .8rem;
@@ -150,13 +157,13 @@ footer > p > a:hover {
     scrollbar-color: transparent var(--red);
 }
 
-.pokemon > .pokemon-data > .description {
+.queen > .queen-data > .description {
     scrollbar-width: thin;
     scrollbar-color: transparent var(--black);
 }
 
 *::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 *::-webkit-scrollbar-track {
@@ -164,10 +171,10 @@ footer > p > a:hover {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: var(--red);
+    background-color: var(--pink);
     border-radius: 20px;
 }
 
-.pokemon > .pokemon-data > .description::-webkit-scrollbar-thumb {
-    background-color: var(--black);
+.queen > .queen-data > .description::-webkit-scrollbar-thumb {
+    background-color: var(--pink);
 }
