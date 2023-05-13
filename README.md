@@ -24,14 +24,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Deploy
 
-> [Clique aqui para navegar para o projeto!](https://ssschneider.github.io/listagem-pokemons-devweek/)
+> [Clique aqui para navegar para o projeto!](https://ssschneider.github.io/allstars8-cast/)
 
 ## 🌎 English Version
 
 All Stars 8 Cast is a project developed during the Programmer Week: From Zero to Hired an immersion offered by Dev em Dobro, as the personalized version. To do that, I've used:
 - HTML, CSS, JS, Git and Github
 
-> You can check out the deploy by [clicking here](https://ssschneider.github.io/listagem-pokemons-devweek/)
+> You can check out the deploy by [clicking here](https://ssschneider.github.io/allstars8-cast/)
 
 ---
 ### Desenvolvido por Sarah Schneider 🖖
